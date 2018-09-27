@@ -1,0 +1,742 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		056E417C215C7183004E7D38 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 056E417B215C7183004E7D38 /* AppDelegate.m */; };
+		056E417F215C7183004E7D38 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 056E417E215C7183004E7D38 /* ViewController.m */; };
+		056E4182215C7183004E7D38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 056E4180215C7183004E7D38 /* Main.storyboard */; };
+		056E4185215C7183004E7D38 /* YuanZShi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 056E4183215C7183004E7D38 /* YuanZShi.xcdatamodeld */; };
+		056E4187215C7188004E7D38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 056E4186215C7188004E7D38 /* Assets.xcassets */; };
+		056E418A215C7188004E7D38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 056E4188215C7188004E7D38 /* LaunchScreen.storyboard */; };
+		056E418D215C7188004E7D38 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 056E418C215C7188004E7D38 /* main.m */; };
+		056E4197215C7188004E7D38 /* YuanZShiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 056E4196215C7188004E7D38 /* YuanZShiTests.m */; };
+		056E41A2215C7188004E7D38 /* YuanZShiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 056E41A1215C7188004E7D38 /* YuanZShiUITests.m */; };
+		0B6543ED6B1AEB5F81CDA586 /* libPods-YuanZShiTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 30D851D75EC19F2F95C2396F /* libPods-YuanZShiTests.a */; };
+		AF5F89A4083E5C360504C8B4 /* libPods-YuanZShiUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 009484186C665C72AE841FAA /* libPods-YuanZShiUITests.a */; };
+		D26A39A4DF29B65F0A0E8CB1 /* libPods-YuanZShi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F42F9F941F9AD1F995E5782 /* libPods-YuanZShi.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		056E4193215C7188004E7D38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 056E416F215C7183004E7D38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 056E4176215C7183004E7D38;
+			remoteInfo = YuanZShi;
+		};
+		056E419E215C7188004E7D38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 056E416F215C7183004E7D38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 056E4176215C7183004E7D38;
+			remoteInfo = YuanZShi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		009484186C665C72AE841FAA /* libPods-YuanZShiUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YuanZShiUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		056E4177215C7183004E7D38 /* YuanZShi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YuanZShi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		056E417A215C7183004E7D38 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		056E417B215C7183004E7D38 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		056E417D215C7183004E7D38 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		056E417E215C7183004E7D38 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		056E4181215C7183004E7D38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		056E4184215C7183004E7D38 /* YuanZShi.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = YuanZShi.xcdatamodel; sourceTree = "<group>"; };
+		056E4186215C7188004E7D38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		056E4189215C7188004E7D38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		056E418B215C7188004E7D38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		056E418C215C7188004E7D38 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		056E4192215C7188004E7D38 /* YuanZShiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YuanZShiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		056E4196215C7188004E7D38 /* YuanZShiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YuanZShiTests.m; sourceTree = "<group>"; };
+		056E4198215C7188004E7D38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		056E419D215C7188004E7D38 /* YuanZShiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YuanZShiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		056E41A1215C7188004E7D38 /* YuanZShiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YuanZShiUITests.m; sourceTree = "<group>"; };
+		056E41A3215C7188004E7D38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30D851D75EC19F2F95C2396F /* libPods-YuanZShiTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YuanZShiTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		401746F11B96A41E43C6B07B /* Pods-YuanZShi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YuanZShi.release.xcconfig"; path = "Pods/Target Support Files/Pods-YuanZShi/Pods-YuanZShi.release.xcconfig"; sourceTree = "<group>"; };
+		4AE8E94FF9D655F3B6402F8E /* Pods-YuanZShi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YuanZShi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YuanZShi/Pods-YuanZShi.debug.xcconfig"; sourceTree = "<group>"; };
+		5F42F9F941F9AD1F995E5782 /* libPods-YuanZShi.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YuanZShi.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E09BB0DF454312208BE1F15 /* Pods-YuanZShiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YuanZShiUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YuanZShiUITests/Pods-YuanZShiUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		822B7A1ED28C0CD439980729 /* Pods-YuanZShiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YuanZShiTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YuanZShiTests/Pods-YuanZShiTests.release.xcconfig"; sourceTree = "<group>"; };
+		D072ACDFFD3AC0C9D372908E /* Pods-YuanZShiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YuanZShiUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YuanZShiUITests/Pods-YuanZShiUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D267E6BC3C5A7D51273B1FFB /* Pods-YuanZShiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YuanZShiTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YuanZShiTests/Pods-YuanZShiTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		056E4174215C7183004E7D38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D26A39A4DF29B65F0A0E8CB1 /* libPods-YuanZShi.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		056E418F215C7188004E7D38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B6543ED6B1AEB5F81CDA586 /* libPods-YuanZShiTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		056E419A215C7188004E7D38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF5F89A4083E5C360504C8B4 /* libPods-YuanZShiUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		056E416E215C7183004E7D38 = {
+			isa = PBXGroup;
+			children = (
+				056E4179215C7183004E7D38 /* YuanZShi */,
+				056E4195215C7188004E7D38 /* YuanZShiTests */,
+				056E41A0215C7188004E7D38 /* YuanZShiUITests */,
+				056E4178215C7183004E7D38 /* Products */,
+				C33097B015BB19231BAD71E6 /* Pods */,
+				6B90EC6452D65172D405CF3B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		056E4178215C7183004E7D38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				056E4177215C7183004E7D38 /* YuanZShi.app */,
+				056E4192215C7188004E7D38 /* YuanZShiTests.xctest */,
+				056E419D215C7188004E7D38 /* YuanZShiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		056E4179215C7183004E7D38 /* YuanZShi */ = {
+			isa = PBXGroup;
+			children = (
+				056E417A215C7183004E7D38 /* AppDelegate.h */,
+				056E417B215C7183004E7D38 /* AppDelegate.m */,
+				056E417D215C7183004E7D38 /* ViewController.h */,
+				056E417E215C7183004E7D38 /* ViewController.m */,
+				056E4180215C7183004E7D38 /* Main.storyboard */,
+				056E4186215C7188004E7D38 /* Assets.xcassets */,
+				056E4188215C7188004E7D38 /* LaunchScreen.storyboard */,
+				056E418B215C7188004E7D38 /* Info.plist */,
+				056E418C215C7188004E7D38 /* main.m */,
+				056E4183215C7183004E7D38 /* YuanZShi.xcdatamodeld */,
+			);
+			path = YuanZShi;
+			sourceTree = "<group>";
+		};
+		056E4195215C7188004E7D38 /* YuanZShiTests */ = {
+			isa = PBXGroup;
+			children = (
+				056E4196215C7188004E7D38 /* YuanZShiTests.m */,
+				056E4198215C7188004E7D38 /* Info.plist */,
+			);
+			path = YuanZShiTests;
+			sourceTree = "<group>";
+		};
+		056E41A0215C7188004E7D38 /* YuanZShiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				056E41A1215C7188004E7D38 /* YuanZShiUITests.m */,
+				056E41A3215C7188004E7D38 /* Info.plist */,
+			);
+			path = YuanZShiUITests;
+			sourceTree = "<group>";
+		};
+		6B90EC6452D65172D405CF3B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F42F9F941F9AD1F995E5782 /* libPods-YuanZShi.a */,
+				30D851D75EC19F2F95C2396F /* libPods-YuanZShiTests.a */,
+				009484186C665C72AE841FAA /* libPods-YuanZShiUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C33097B015BB19231BAD71E6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4AE8E94FF9D655F3B6402F8E /* Pods-YuanZShi.debug.xcconfig */,
+				401746F11B96A41E43C6B07B /* Pods-YuanZShi.release.xcconfig */,
+				D267E6BC3C5A7D51273B1FFB /* Pods-YuanZShiTests.debug.xcconfig */,
+				822B7A1ED28C0CD439980729 /* Pods-YuanZShiTests.release.xcconfig */,
+				7E09BB0DF454312208BE1F15 /* Pods-YuanZShiUITests.debug.xcconfig */,
+				D072ACDFFD3AC0C9D372908E /* Pods-YuanZShiUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		056E4176215C7183004E7D38 /* YuanZShi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 056E41A6215C7188004E7D38 /* Build configuration list for PBXNativeTarget "YuanZShi" */;
+			buildPhases = (
+				9BC968FCC5985518E39BED2B /* [CP] Check Pods Manifest.lock */,
+				056E4173215C7183004E7D38 /* Sources */,
+				056E4174215C7183004E7D38 /* Frameworks */,
+				056E4175215C7183004E7D38 /* Resources */,
+				29D3666FD7B9D99BA63C0000 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YuanZShi;
+			productName = YuanZShi;
+			productReference = 056E4177215C7183004E7D38 /* YuanZShi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		056E4191215C7188004E7D38 /* YuanZShiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 056E41A9215C7188004E7D38 /* Build configuration list for PBXNativeTarget "YuanZShiTests" */;
+			buildPhases = (
+				363DF0B45BC3CA5CCA1C8D97 /* [CP] Check Pods Manifest.lock */,
+				056E418E215C7188004E7D38 /* Sources */,
+				056E418F215C7188004E7D38 /* Frameworks */,
+				056E4190215C7188004E7D38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				056E4194215C7188004E7D38 /* PBXTargetDependency */,
+			);
+			name = YuanZShiTests;
+			productName = YuanZShiTests;
+			productReference = 056E4192215C7188004E7D38 /* YuanZShiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		056E419C215C7188004E7D38 /* YuanZShiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 056E41AC215C7188004E7D38 /* Build configuration list for PBXNativeTarget "YuanZShiUITests" */;
+			buildPhases = (
+				27E1F003F7A8DDB66E3E6CC6 /* [CP] Check Pods Manifest.lock */,
+				056E4199215C7188004E7D38 /* Sources */,
+				056E419A215C7188004E7D38 /* Frameworks */,
+				056E419B215C7188004E7D38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				056E419F215C7188004E7D38 /* PBXTargetDependency */,
+			);
+			name = YuanZShiUITests;
+			productName = YuanZShiUITests;
+			productReference = 056E419D215C7188004E7D38 /* YuanZShiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		056E416F215C7183004E7D38 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = YixinJinansunreading;
+				TargetAttributes = {
+					056E4176215C7183004E7D38 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					056E4191215C7188004E7D38 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 056E4176215C7183004E7D38;
+					};
+					056E419C215C7188004E7D38 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 056E4176215C7183004E7D38;
+					};
+				};
+			};
+			buildConfigurationList = 056E4172215C7183004E7D38 /* Build configuration list for PBXProject "YuanZShi" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 056E416E215C7183004E7D38;
+			productRefGroup = 056E4178215C7183004E7D38 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				056E4176215C7183004E7D38 /* YuanZShi */,
+				056E4191215C7188004E7D38 /* YuanZShiTests */,
+				056E419C215C7188004E7D38 /* YuanZShiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		056E4175215C7183004E7D38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				056E418A215C7188004E7D38 /* LaunchScreen.storyboard in Resources */,
+				056E4187215C7188004E7D38 /* Assets.xcassets in Resources */,
+				056E4182215C7183004E7D38 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		056E4190215C7188004E7D38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		056E419B215C7188004E7D38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		27E1F003F7A8DDB66E3E6CC6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YuanZShiUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		29D3666FD7B9D99BA63C0000 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-YuanZShi/Pods-YuanZShi-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YuanZShi/Pods-YuanZShi-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		363DF0B45BC3CA5CCA1C8D97 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YuanZShiTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BC968FCC5985518E39BED2B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YuanZShi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		056E4173215C7183004E7D38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				056E417F215C7183004E7D38 /* ViewController.m in Sources */,
+				056E417C215C7183004E7D38 /* AppDelegate.m in Sources */,
+				056E418D215C7188004E7D38 /* main.m in Sources */,
+				056E4185215C7183004E7D38 /* YuanZShi.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		056E418E215C7188004E7D38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				056E4197215C7188004E7D38 /* YuanZShiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		056E4199215C7188004E7D38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				056E41A2215C7188004E7D38 /* YuanZShiUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		056E4194215C7188004E7D38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 056E4176215C7183004E7D38 /* YuanZShi */;
+			targetProxy = 056E4193215C7188004E7D38 /* PBXContainerItemProxy */;
+		};
+		056E419F215C7188004E7D38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 056E4176215C7183004E7D38 /* YuanZShi */;
+			targetProxy = 056E419E215C7188004E7D38 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		056E4180215C7183004E7D38 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				056E4181215C7183004E7D38 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		056E4188215C7188004E7D38 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				056E4189215C7188004E7D38 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		056E41A4215C7188004E7D38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		056E41A5215C7188004E7D38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		056E41A7215C7188004E7D38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AE8E94FF9D655F3B6402F8E /* Pods-YuanZShi.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R86RB55HTN;
+				INFOPLIST_FILE = YuanZShi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.YixinJinansunreading.YuanZShi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		056E41A8215C7188004E7D38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 401746F11B96A41E43C6B07B /* Pods-YuanZShi.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R86RB55HTN;
+				INFOPLIST_FILE = YuanZShi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.YixinJinansunreading.YuanZShi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		056E41AA215C7188004E7D38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D267E6BC3C5A7D51273B1FFB /* Pods-YuanZShiTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R86RB55HTN;
+				INFOPLIST_FILE = YuanZShiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.YixinJinansunreading.YuanZShiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YuanZShi.app/YuanZShi";
+			};
+			name = Debug;
+		};
+		056E41AB215C7188004E7D38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 822B7A1ED28C0CD439980729 /* Pods-YuanZShiTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R86RB55HTN;
+				INFOPLIST_FILE = YuanZShiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.YixinJinansunreading.YuanZShiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YuanZShi.app/YuanZShi";
+			};
+			name = Release;
+		};
+		056E41AD215C7188004E7D38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E09BB0DF454312208BE1F15 /* Pods-YuanZShiUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R86RB55HTN;
+				INFOPLIST_FILE = YuanZShiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.YixinJinansunreading.YuanZShiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YuanZShi;
+			};
+			name = Debug;
+		};
+		056E41AE215C7188004E7D38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D072ACDFFD3AC0C9D372908E /* Pods-YuanZShiUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R86RB55HTN;
+				INFOPLIST_FILE = YuanZShiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.YixinJinansunreading.YuanZShiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YuanZShi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		056E4172215C7183004E7D38 /* Build configuration list for PBXProject "YuanZShi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				056E41A4215C7188004E7D38 /* Debug */,
+				056E41A5215C7188004E7D38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		056E41A6215C7188004E7D38 /* Build configuration list for PBXNativeTarget "YuanZShi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				056E41A7215C7188004E7D38 /* Debug */,
+				056E41A8215C7188004E7D38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		056E41A9215C7188004E7D38 /* Build configuration list for PBXNativeTarget "YuanZShiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				056E41AA215C7188004E7D38 /* Debug */,
+				056E41AB215C7188004E7D38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		056E41AC215C7188004E7D38 /* Build configuration list for PBXNativeTarget "YuanZShiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				056E41AD215C7188004E7D38 /* Debug */,
+				056E41AE215C7188004E7D38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		056E4183215C7183004E7D38 /* YuanZShi.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				056E4184215C7183004E7D38 /* YuanZShi.xcdatamodel */,
+			);
+			currentVersion = 056E4184215C7183004E7D38 /* YuanZShi.xcdatamodel */;
+			path = YuanZShi.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 056E416F215C7183004E7D38 /* Project object */;
+}
