@@ -2,8 +2,8 @@
 //  NetworkTool.h
 //  04AFNetworking
 //
-//  Created by ItHeiMa on 2017/6/19.
-//  Copyright © 2017年 itHeima. All rights reserved.
+//  Created by 疏影浮生 on 2017/6/19.
+//  Copyright © 2017年 疏影浮生. All rights reserved.
 //
 
 #import "AFHTTPSessionManager.h"

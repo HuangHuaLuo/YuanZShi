@@ -2,7 +2,7 @@
 //  AppDelegate.h
 //  YuanZShi
 //
-//  Created by 马旭东 on 2018/9/27.
+//  Created by 疏影浮生 on 2018/9/27.
 //  Copyright © 2018年 YixinJinansunreading. All rights reserved.
 //
 
