@@ -7,6 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		051769A42183162000EF3917 /* CPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 051769A32183162000EF3917 /* CPViewController.m */; };
+		0566F08B21742FF7008036FF /* Unauthorized.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0566F06E21742FF6008036FF /* Unauthorized.storyboard */; };
+		0566F08C21742FF7008036FF /* RProduct.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0566F07021742FF6008036FF /* RProduct.storyboard */; };
+		0566F08D21742FF7008036FF /* DPush.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0566F07221742FF6008036FF /* DPush.storyboard */; };
+		0566F08E21742FF7008036FF /* SShop.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0566F07421742FF6008036FF /* SShop.storyboard */; };
+		0566F08F21742FF7008036FF /* MWorkbench.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0566F07621742FF6008036FF /* MWorkbench.storyboard */; };
+		0566F09021742FF7008036FF /* MProduct.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0566F07821742FF6008036FF /* MProduct.storyboard */; };
+		0566F09121742FF7008036FF /* MyOrder.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0566F07A21742FF6008036FF /* MyOrder.storyboard */; };
+		0566F09221742FF7008036FF /* MWallet.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0566F07C21742FF6008036FF /* MWallet.storyboard */; };
+		0566F09321742FF7008036FF /* Evaluation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0566F07E21742FF6008036FF /* Evaluation.storyboard */; };
+		0566F09421742FF7008036FF /* Release.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0566F08121742FF6008036FF /* Release.storyboard */; };
+		0566F09521742FF7008036FF /* MCRequirements.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0566F08321742FF6008036FF /* MCRequirements.storyboard */; };
+		0566F09621742FF7008036FF /* MyOrder.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0566F08521742FF6008036FF /* MyOrder.storyboard */; };
+		0566F09721742FF7008036FF /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0566F08721742FF6008036FF /* Login.storyboard */; };
+		0566F09821742FF7008036FF /* SetUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0566F08921742FF6008036FF /* SetUp.storyboard */; };
+		0566F0A821743004008036FF /* ATheList .storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0566F09A21743004008036FF /* ATheList .storyboard */; };
+		0566F0A921743004008036FF /* Search.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0566F09C21743004008036FF /* Search.storyboard */; };
+		0566F0AA21743004008036FF /* Author.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0566F09E21743004008036FF /* Author.storyboard */; };
+		0566F0AB21743004008036FF /* APerspective.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0566F0A121743004008036FF /* APerspective.storyboard */; };
+		0566F0AC21743004008036FF /* TPerspective.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0566F0A321743004008036FF /* TPerspective.storyboard */; };
+		0566F0AD21743004008036FF /* EPerspective.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0566F0A521743004008036FF /* EPerspective.storyboard */; };
+		0566F0AE21743004008036FF /* Demand.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0566F0A721743004008036FF /* Demand.storyboard */; };
 		056E417C215C7183004E7D38 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 056E417B215C7183004E7D38 /* AppDelegate.m */; };
 		056E417F215C7183004E7D38 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 056E417E215C7183004E7D38 /* ViewController.m */; };
 		056E4182215C7183004E7D38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 056E4180215C7183004E7D38 /* Main.storyboard */; };
@@ -22,6 +44,8 @@
 		056E41D0215C72BF004E7D38 /* Shopping.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 056E41C2215C72BF004E7D38 /* Shopping.storyboard */; };
 		056E41D1215C72BF004E7D38 /* Homepage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 056E41C7215C72BF004E7D38 /* Homepage.storyboard */; };
 		056E41D2215C72BF004E7D38 /* NetworkTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 056E41CC215C72BF004E7D38 /* NetworkTool.m */; };
+		058D9B52216AFD2F0033A945 /* CarouseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 058D9B4F216AFD2E0033A945 /* CarouseView.m */; };
+		058D9C2B216B63120033A945 /* Cacell.m in Sources */ = {isa = PBXBuildFile; fileRef = 058D9C29216B63120033A945 /* Cacell.m */; };
 		0B6543ED6B1AEB5F81CDA586 /* libPods-YuanZShiTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 30D851D75EC19F2F95C2396F /* libPods-YuanZShiTests.a */; };
 		AF5F89A4083E5C360504C8B4 /* libPods-YuanZShiUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 009484186C665C72AE841FAA /* libPods-YuanZShiUITests.a */; };
 		D26A39A4DF29B65F0A0E8CB1 /* libPods-YuanZShi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F42F9F941F9AD1F995E5782 /* libPods-YuanZShi.a */; };
@@ -46,6 +70,29 @@
 
 /* Begin PBXFileReference section */
 		009484186C665C72AE841FAA /* libPods-YuanZShiUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YuanZShiUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		051769A22183162000EF3917 /* CPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPViewController.h; sourceTree = "<group>"; };
+		051769A32183162000EF3917 /* CPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPViewController.m; sourceTree = "<group>"; };
+		0566F06E21742FF6008036FF /* Unauthorized.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Unauthorized.storyboard; sourceTree = "<group>"; };
+		0566F07021742FF6008036FF /* RProduct.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = RProduct.storyboard; sourceTree = "<group>"; };
+		0566F07221742FF6008036FF /* DPush.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DPush.storyboard; sourceTree = "<group>"; };
+		0566F07421742FF6008036FF /* SShop.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SShop.storyboard; sourceTree = "<group>"; };
+		0566F07621742FF6008036FF /* MWorkbench.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MWorkbench.storyboard; sourceTree = "<group>"; };
+		0566F07821742FF6008036FF /* MProduct.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MProduct.storyboard; sourceTree = "<group>"; };
+		0566F07A21742FF6008036FF /* MyOrder.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MyOrder.storyboard; sourceTree = "<group>"; };
+		0566F07C21742FF6008036FF /* MWallet.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MWallet.storyboard; sourceTree = "<group>"; };
+		0566F07E21742FF6008036FF /* Evaluation.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Evaluation.storyboard; sourceTree = "<group>"; };
+		0566F08121742FF6008036FF /* Release.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Release.storyboard; sourceTree = "<group>"; };
+		0566F08321742FF6008036FF /* MCRequirements.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MCRequirements.storyboard; sourceTree = "<group>"; };
+		0566F08521742FF6008036FF /* MyOrder.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MyOrder.storyboard; sourceTree = "<group>"; };
+		0566F08721742FF6008036FF /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		0566F08921742FF6008036FF /* SetUp.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SetUp.storyboard; sourceTree = "<group>"; };
+		0566F09A21743004008036FF /* ATheList .storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "ATheList .storyboard"; sourceTree = "<group>"; };
+		0566F09C21743004008036FF /* Search.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Search.storyboard; sourceTree = "<group>"; };
+		0566F09E21743004008036FF /* Author.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Author.storyboard; sourceTree = "<group>"; };
+		0566F0A121743004008036FF /* APerspective.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = APerspective.storyboard; sourceTree = "<group>"; };
+		0566F0A321743004008036FF /* TPerspective.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TPerspective.storyboard; sourceTree = "<group>"; };
+		0566F0A521743004008036FF /* EPerspective.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = EPerspective.storyboard; sourceTree = "<group>"; };
+		0566F0A721743004008036FF /* Demand.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Demand.storyboard; sourceTree = "<group>"; };
 		056E4177215C7183004E7D38 /* YuanZShi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YuanZShi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		056E417A215C7183004E7D38 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		056E417B215C7183004E7D38 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -70,6 +117,10 @@
 		056E41C7215C72BF004E7D38 /* Homepage.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Homepage.storyboard; sourceTree = "<group>"; };
 		056E41CB215C72BF004E7D38 /* NetworkTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkTool.h; sourceTree = "<group>"; };
 		056E41CC215C72BF004E7D38 /* NetworkTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkTool.m; sourceTree = "<group>"; };
+		058D9B4E216AFD2E0033A945 /* CarouseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarouseView.h; sourceTree = "<group>"; };
+		058D9B4F216AFD2E0033A945 /* CarouseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarouseView.m; sourceTree = "<group>"; };
+		058D9C29216B63120033A945 /* Cacell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cacell.m; sourceTree = "<group>"; };
+		058D9C2A216B63120033A945 /* Cacell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cacell.h; sourceTree = "<group>"; };
 		30D851D75EC19F2F95C2396F /* libPods-YuanZShiTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YuanZShiTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		401746F11B96A41E43C6B07B /* Pods-YuanZShi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YuanZShi.release.xcconfig"; path = "Pods/Target Support Files/Pods-YuanZShi/Pods-YuanZShi.release.xcconfig"; sourceTree = "<group>"; };
 		4AE8E94FF9D655F3B6402F8E /* Pods-YuanZShi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YuanZShi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YuanZShi/Pods-YuanZShi.debug.xcconfig"; sourceTree = "<group>"; };
@@ -108,6 +159,212 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0566F06D21742FF6008036FF /* 作者（收藏，足迹） */ = {
+			isa = PBXGroup;
+			children = (
+				0566F06E21742FF6008036FF /* Unauthorized.storyboard */,
+				0566F06F21742FF6008036FF /* 发布知识产品 */,
+				0566F07121742FF6008036FF /* 定制需求推送 */,
+				0566F07321742FF6008036FF /* 店铺设置 */,
+				0566F07521742FF6008036FF /* 我的工作台 */,
+				0566F07721742FF6008036FF /* 我的知识产品 */,
+				0566F07921742FF6008036FF /* 我的订单 */,
+				0566F07B21742FF6008036FF /* 我的钱包 */,
+				0566F07D21742FF6008036FF /* 收到的评价 */,
+			);
+			path = "作者（收藏，足迹）";
+			sourceTree = "<group>";
+		};
+		0566F06F21742FF6008036FF /* 发布知识产品 */ = {
+			isa = PBXGroup;
+			children = (
+				0566F07021742FF6008036FF /* RProduct.storyboard */,
+			);
+			path = "发布知识产品";
+			sourceTree = "<group>";
+		};
+		0566F07121742FF6008036FF /* 定制需求推送 */ = {
+			isa = PBXGroup;
+			children = (
+				0566F07221742FF6008036FF /* DPush.storyboard */,
+			);
+			path = "定制需求推送";
+			sourceTree = "<group>";
+		};
+		0566F07321742FF6008036FF /* 店铺设置 */ = {
+			isa = PBXGroup;
+			children = (
+				0566F07421742FF6008036FF /* SShop.storyboard */,
+			);
+			path = "店铺设置";
+			sourceTree = "<group>";
+		};
+		0566F07521742FF6008036FF /* 我的工作台 */ = {
+			isa = PBXGroup;
+			children = (
+				0566F07621742FF6008036FF /* MWorkbench.storyboard */,
+			);
+			path = "我的工作台";
+			sourceTree = "<group>";
+		};
+		0566F07721742FF6008036FF /* 我的知识产品 */ = {
+			isa = PBXGroup;
+			children = (
+				0566F07821742FF6008036FF /* MProduct.storyboard */,
+			);
+			path = "我的知识产品";
+			sourceTree = "<group>";
+		};
+		0566F07921742FF6008036FF /* 我的订单 */ = {
+			isa = PBXGroup;
+			children = (
+				0566F07A21742FF6008036FF /* MyOrder.storyboard */,
+			);
+			path = "我的订单";
+			sourceTree = "<group>";
+		};
+		0566F07B21742FF6008036FF /* 我的钱包 */ = {
+			isa = PBXGroup;
+			children = (
+				0566F07C21742FF6008036FF /* MWallet.storyboard */,
+			);
+			path = "我的钱包";
+			sourceTree = "<group>";
+		};
+		0566F07D21742FF6008036FF /* 收到的评价 */ = {
+			isa = PBXGroup;
+			children = (
+				0566F07E21742FF6008036FF /* Evaluation.storyboard */,
+			);
+			path = "收到的评价";
+			sourceTree = "<group>";
+		};
+		0566F07F21742FF6008036FF /* 雇主 */ = {
+			isa = PBXGroup;
+			children = (
+				0566F08021742FF6008036FF /* 发布定制需求 */,
+				0566F08221742FF6008036FF /* 我的定制需求 */,
+				0566F08421742FF6008036FF /* 我的订单 */,
+			);
+			path = "雇主";
+			sourceTree = "<group>";
+		};
+		0566F08021742FF6008036FF /* 发布定制需求 */ = {
+			isa = PBXGroup;
+			children = (
+				0566F08121742FF6008036FF /* Release.storyboard */,
+			);
+			path = "发布定制需求";
+			sourceTree = "<group>";
+		};
+		0566F08221742FF6008036FF /* 我的定制需求 */ = {
+			isa = PBXGroup;
+			children = (
+				0566F08321742FF6008036FF /* MCRequirements.storyboard */,
+			);
+			path = "我的定制需求";
+			sourceTree = "<group>";
+		};
+		0566F08421742FF6008036FF /* 我的订单 */ = {
+			isa = PBXGroup;
+			children = (
+				0566F08521742FF6008036FF /* MyOrder.storyboard */,
+			);
+			path = "我的订单";
+			sourceTree = "<group>";
+		};
+		0566F08621742FF6008036FF /* 登录 */ = {
+			isa = PBXGroup;
+			children = (
+				0566F08721742FF6008036FF /* Login.storyboard */,
+			);
+			path = "登录";
+			sourceTree = "<group>";
+		};
+		0566F08821742FF6008036FF /* 设置 */ = {
+			isa = PBXGroup;
+			children = (
+				0566F08921742FF6008036FF /* SetUp.storyboard */,
+			);
+			path = "设置";
+			sourceTree = "<group>";
+		};
+		0566F08A21742FF7008036FF /* 认证状态 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "认证状态";
+			sourceTree = "<group>";
+		};
+		0566F09921743004008036FF /* 作者列表 */ = {
+			isa = PBXGroup;
+			children = (
+				0566F09A21743004008036FF /* ATheList .storyboard */,
+			);
+			path = "作者列表";
+			sourceTree = "<group>";
+		};
+		0566F09B21743004008036FF /* 搜索页 */ = {
+			isa = PBXGroup;
+			children = (
+				0566F09C21743004008036FF /* Search.storyboard */,
+				051769A22183162000EF3917 /* CPViewController.h */,
+				051769A32183162000EF3917 /* CPViewController.m */,
+			);
+			path = "搜索页";
+			sourceTree = "<group>";
+		};
+		0566F09D21743004008036FF /* 加入作者 */ = {
+			isa = PBXGroup;
+			children = (
+				0566F09E21743004008036FF /* Author.storyboard */,
+			);
+			path = "加入作者";
+			sourceTree = "<group>";
+		};
+		0566F09F21743004008036FF /* 需求列表 */ = {
+			isa = PBXGroup;
+			children = (
+				0566F0A021743004008036FF /* 作者视角 */,
+				0566F0A221743004008036FF /* 游客视角 */,
+				0566F0A421743004008036FF /* 雇主视角 */,
+				0566F0A621743004008036FF /* 需求列表 */,
+			);
+			path = "需求列表";
+			sourceTree = "<group>";
+		};
+		0566F0A021743004008036FF /* 作者视角 */ = {
+			isa = PBXGroup;
+			children = (
+				0566F0A121743004008036FF /* APerspective.storyboard */,
+			);
+			path = "作者视角";
+			sourceTree = "<group>";
+		};
+		0566F0A221743004008036FF /* 游客视角 */ = {
+			isa = PBXGroup;
+			children = (
+				0566F0A321743004008036FF /* TPerspective.storyboard */,
+			);
+			path = "游客视角";
+			sourceTree = "<group>";
+		};
+		0566F0A421743004008036FF /* 雇主视角 */ = {
+			isa = PBXGroup;
+			children = (
+				0566F0A521743004008036FF /* EPerspective.storyboard */,
+			);
+			path = "雇主视角";
+			sourceTree = "<group>";
+		};
+		0566F0A621743004008036FF /* 需求列表 */ = {
+			isa = PBXGroup;
+			children = (
+				0566F0A721743004008036FF /* Demand.storyboard */,
+			);
+			path = "需求列表";
+			sourceTree = "<group>";
+		};
 		056E416E215C7183004E7D38 = {
 			isa = PBXGroup;
 			children = (
@@ -222,6 +479,11 @@
 		056E41B6215C72BF004E7D38 /* 我的 */ = {
 			isa = PBXGroup;
 			children = (
+				0566F08621742FF6008036FF /* 登录 */,
+				0566F07F21742FF6008036FF /* 雇主 */,
+				0566F08A21742FF7008036FF /* 认证状态 */,
+				0566F08821742FF6008036FF /* 设置 */,
+				0566F06D21742FF6008036FF /* 作者（收藏，足迹） */,
 				056E41B7215C72BF004E7D38 /* Controller */,
 				056E41B9215C72BF004E7D38 /* Model */,
 				056E41BA215C72BF004E7D38 /* View */,
@@ -318,6 +580,11 @@
 		056E41C5215C72BF004E7D38 /* 首页 */ = {
 			isa = PBXGroup;
 			children = (
+				0566F09D21743004008036FF /* 加入作者 */,
+				0566F09B21743004008036FF /* 搜索页 */,
+				0566F09F21743004008036FF /* 需求列表 */,
+				0566F09921743004008036FF /* 作者列表 */,
+				058D9B4C216AFC840033A945 /* wu */,
 				056E41C6215C72BF004E7D38 /* Controller */,
 				056E41C8215C72BF004E7D38 /* Model */,
 				056E41C9215C72BF004E7D38 /* View */,
@@ -354,6 +621,25 @@
 				056E41CC215C72BF004E7D38 /* NetworkTool.m */,
 			);
 			path = Help;
+			sourceTree = "<group>";
+		};
+		058D9B4C216AFC840033A945 /* wu */ = {
+			isa = PBXGroup;
+			children = (
+				058D9B4D216AFD2E0033A945 /* 轮播 */,
+			);
+			path = wu;
+			sourceTree = "<group>";
+		};
+		058D9B4D216AFD2E0033A945 /* 轮播 */ = {
+			isa = PBXGroup;
+			children = (
+				058D9C2A216B63120033A945 /* Cacell.h */,
+				058D9C29216B63120033A945 /* Cacell.m */,
+				058D9B4E216AFD2E0033A945 /* CarouseView.h */,
+				058D9B4F216AFD2E0033A945 /* CarouseView.m */,
+			);
+			path = "轮播";
 			sourceTree = "<group>";
 		};
 		6B90EC6452D65172D405CF3B /* Frameworks */ = {
@@ -488,12 +774,33 @@
 			files = (
 				056E41D1215C72BF004E7D38 /* Homepage.storyboard in Resources */,
 				056E41CF215C72BF004E7D38 /* Chat.storyboard in Resources */,
+				0566F09721742FF7008036FF /* Login.storyboard in Resources */,
+				0566F0AA21743004008036FF /* Author.storyboard in Resources */,
 				056E41CD215C72BF004E7D38 /* Classification.storyboard in Resources */,
+				0566F0AB21743004008036FF /* APerspective.storyboard in Resources */,
+				0566F09821742FF7008036FF /* SetUp.storyboard in Resources */,
+				0566F09621742FF7008036FF /* MyOrder.storyboard in Resources */,
 				056E418A215C7188004E7D38 /* LaunchScreen.storyboard in Resources */,
+				0566F08E21742FF7008036FF /* SShop.storyboard in Resources */,
+				0566F08D21742FF7008036FF /* DPush.storyboard in Resources */,
+				0566F08B21742FF7008036FF /* Unauthorized.storyboard in Resources */,
+				0566F0AE21743004008036FF /* Demand.storyboard in Resources */,
 				056E41CE215C72BF004E7D38 /* Mine.storyboard in Resources */,
+				0566F0A821743004008036FF /* ATheList .storyboard in Resources */,
+				0566F09021742FF7008036FF /* MProduct.storyboard in Resources */,
 				056E4187215C7188004E7D38 /* Assets.xcassets in Resources */,
+				0566F08F21742FF7008036FF /* MWorkbench.storyboard in Resources */,
+				0566F09521742FF7008036FF /* MCRequirements.storyboard in Resources */,
+				0566F08C21742FF7008036FF /* RProduct.storyboard in Resources */,
+				0566F09321742FF7008036FF /* Evaluation.storyboard in Resources */,
 				056E4182215C7183004E7D38 /* Main.storyboard in Resources */,
+				0566F0AD21743004008036FF /* EPerspective.storyboard in Resources */,
+				0566F09121742FF7008036FF /* MyOrder.storyboard in Resources */,
+				0566F0AC21743004008036FF /* TPerspective.storyboard in Resources */,
 				056E41D0215C72BF004E7D38 /* Shopping.storyboard in Resources */,
+				0566F09421742FF7008036FF /* Release.storyboard in Resources */,
+				0566F0A921743004008036FF /* Search.storyboard in Resources */,
+				0566F09221742FF7008036FF /* MWallet.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -610,10 +917,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				056E41D2215C72BF004E7D38 /* NetworkTool.m in Sources */,
+				058D9C2B216B63120033A945 /* Cacell.m in Sources */,
 				056E417F215C7183004E7D38 /* ViewController.m in Sources */,
 				056E417C215C7183004E7D38 /* AppDelegate.m in Sources */,
 				056E418D215C7188004E7D38 /* main.m in Sources */,
 				056E4185215C7183004E7D38 /* YuanZShi.xcdatamodeld in Sources */,
+				058D9B52216AFD2F0033A945 /* CarouseView.m in Sources */,
+				051769A42183162000EF3917 /* CPViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
